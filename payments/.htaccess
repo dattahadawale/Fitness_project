@@ -1,0 +1,9 @@
+
+# Block direct browser access to config files (PHP still includes them normally)
+Require all denied
+
+
+# Payment screenshots are private: never served directly by the web server
+Options -Indexes
+Require all denied
+

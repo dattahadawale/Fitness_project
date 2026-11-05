@@ -1,0 +1,4 @@
+# Deny all direct HTTP access to payment screenshots.
+# Screenshots are served exclusively through admin/serve-screenshot.php
+Order Deny,Allow
+Deny from all
